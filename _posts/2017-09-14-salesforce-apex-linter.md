@@ -20,6 +20,8 @@ Developing and maintaining enterprise applications that are inconsistent in (for
 
 Looking at the pool of open source linters that is available, I'm sure one of them will lend themselves to forking and adapting to Apex. There's [a list published](https://github.com/showcases/clean-code-linters) that I'll explore the code of and see how achievable this is. Right now I only have experience in C#, JavaScript and Apex, but learning a language is probably worth my time.
 
+## Getting Started
+
 > The basic steps an ESLint-style linter needs to do first:
 > 1. Parse code into an abstract syntax tree (AST)
 > 1. Prepare auxiliary information needed by rules
