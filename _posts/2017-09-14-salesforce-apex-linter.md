@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Salesforce Apex - Building a Linter!"
 date:   2017-09-14 19:35:00 +0200
 categories: salesforce, software development
