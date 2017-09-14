@@ -31,7 +31,7 @@ Looking at the pool of open source linters that is available, I'm sure one of th
 > 1. Output results, including "fixed" file
 <cite>Extracted from [this ESLint issue](https://github.com/eslint/eslint/issues/7907)</cite>
 
-[PMD](https://github.com/pmd/pmd/tree/master/pmd-apex/src/main/java/net/sourceforge/pmd/lang/apex) has built a an AST and parser I can use. Actually, come to think about it, can't I just extend the ruleset for PMD to check for style?
+[PMD](https://github.com/pmd/pmd/tree/master/pmd-apex/src/main/java/net/sourceforge/pmd/lang/apex) has built an AST and parser I can use. Actually, come to think about it, can't I just extend the ruleset for PMD to check for style?
 
 ### To be continued...
 
