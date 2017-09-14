@@ -6,11 +6,15 @@ categories: salesforce
 ---
 # Building a Salesforce Apex Linter
 
-## Why even bother?
+## Why even bother? And where do I start?
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I've decided to build a linter for Salesforce's Apex language. WHy? I'm tired of reviewing and rejecting pull requests that don't adhere to style. It would also be nice if recommendations would come up while actually developing, so the feedback loop for new developers is shorter. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Salesforce has always been, and still is, pretty limited in the Development Tools it offers. Basic stuff such as static code analysis or debugging is painful and expensive.
+
+Clean code is important to me. Developing and maintaining enterprise applications that are inconsistent in (for example) indentation or naming conventions is frustrating. Call it OCD, but I'd really like to get rid of it.
+
+Looking at the pool of open source linters that is available, I'm sure one of them will lend themselves to forking and adapting to Apex. There's [a list published](https://github.com/showcases/clean-code-linters) that I'll explore the code of and see how achievable this is. Right now I only have experience in C#, JavaScript and Apex, but learning a language is probably worth my time.
 
 ### To be continued...
 
