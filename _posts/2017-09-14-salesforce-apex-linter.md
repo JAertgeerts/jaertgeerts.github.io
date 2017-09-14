@@ -14,7 +14,7 @@ Salesforce has always been, and still is, pretty limited in the Development Tool
 
 > “Clean code is not written by following a set of rules. You don’t become a software craftsman by learning a list of heuristics. Professionalism and craftsmanship come from values that drive disciplines.” 
 >
->― Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+> &mdash; <cite>Robert C. Martin, Clean Code</cite>
 
 Developing and maintaining enterprise applications that are inconsistent in (for example) indentation or naming conventions is frustrating. Call it OCD, but I'd really like to get rid of it. 
 
