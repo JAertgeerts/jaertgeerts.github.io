@@ -20,6 +20,17 @@ Developing and maintaining enterprise applications that are inconsistent in (for
 
 Looking at the pool of open source linters that is available, I'm sure one of them will lend themselves to forking and adapting to Apex. There's [a list published](https://github.com/showcases/clean-code-linters) that I'll explore the code of and see how achievable this is. Right now I only have experience in C#, JavaScript and Apex, but learning a language is probably worth my time.
 
+> The basic steps an ESLint-style linter needs to do first:
+> 1. Parse code into an abstract syntax tree (AST)
+> 1. Prepare auxiliary information needed by rules
+> 1. Traverse the AST and emit events for each node entered and left
+> 1. Rules listen for node events and emit lint messages
+> 1. Iterate through lint messages and attempt to apply fixes
+> 1. Output results, including "fixed" file
+<cite>Extracted from [this ESLint issue](https://github.com/eslint/eslint/issues/7907)</cite>
+
+[Fundación Jala](https://github.com/fundacionjala/enforce-sonarqube-plugin) has built a basic version of an AST I can use.
+
 ### To be continued...
 
 <a href="/">Return to the overview</a>.
