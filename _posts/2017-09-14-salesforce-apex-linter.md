@@ -33,6 +33,18 @@ Looking at the pool of open source linters that is available, I'm sure one of th
 
 [PMD](https://github.com/pmd/pmd/tree/master/pmd-apex/src/main/java/net/sourceforge/pmd/lang/apex) has built an AST and parser I can use. Actually, come to think about it, can't I just extend the ruleset for PMD to check for style?
 
+## PMD and Apex-Jorje
+
+Ok so PMD didn't actually build their own parser, but piggybacked the `Apex-Jorje` library that comes with the Force.com IDE. It has some important limitations that will prevent me from using it for this purpose:
+
+1. It ignores whitespace
+1. It ignores comments
+1. It has no documentation and can not be extended, since it's not open sourced by SFDC
+
+The first 2 are pretty much blockers, they prevent me from writing any rule that considers indentation or whitespacing. It's essential.
+
+Although I did like the PMD community and felt that there was a need to extend the library for the purposes it was built: static code analysis. I'm going to contribute the next couple of weeks a chunk of my time in building the rules I feel they miss and are achievable with this AST.
+
 ### To be continued...
 
 <a href="/">Return to the overview</a>.
